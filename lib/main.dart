@@ -73,7 +73,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 child: RangeSlider(
                   values: _rangeSliderDiscreteValues,
-                  min: 0
+                  min: 0,
+                  max: 100,
+                  divisions: 5,
+                  labels: ,
                 ),
               ),
             )
