@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   label: _sliderDiscreteValue.round().toString(),
                   onChanged: (value) {
                     setState(() {
-
+                      _sliderDiscreteValue = value;
                     });
                   },
                 ),
