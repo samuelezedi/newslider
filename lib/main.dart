@@ -71,6 +71,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 data: SliderThemeData(
                   rangeValueIndicatorShape: PaddleRangeSliderValueIndicatorShape(),
                 ),
+                child: RangeSlider(
+                  values: _rangeSliderDiscreteValues,
+                  min: 0
+                ),
               ),
             )
           ],
