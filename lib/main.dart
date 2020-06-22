@@ -81,7 +81,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     _rangeSliderDiscreteValues.end.round().toString()
                   ),
                   onChanged: (value){
-
+                    setState(() {
+                      _rangeSliderDiscreteValues = value;
+                    });
                   },
                 ),
               ),
