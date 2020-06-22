@@ -47,7 +47,20 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
 
           children: <Widget>[
+            Expanded(
+              child: SliderTheme(
+                data: SliderThemeData(
+                  valueIndicatorShape: PaddleSliderValueIndicatorShape(),
+                ),
+                child: Slider(
+                  value: _sliderDiscreteValue,
+                  min: 0,
+                  max: 100,
+                  divisions: 5,
 
+                ),
+              ),
+            )
           ],
         ),
       );
