@@ -33,6 +33,8 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
+  double _sliderDiscreteValue = 20;
+  RangeValues _rangeSliderDiscreteValues = const RangeValues(40, 80);
 
   @override
   Widget build(BuildContext context) {
