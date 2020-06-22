@@ -65,6 +65,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   },
                 ),
               ),
+            ),
+            Expanded(
+              child: SliderTheme(
+                data: SliderThemeData(
+                  rangeValueIndicatorShape: PaddleRangeSliderValueIndicatorShape(),
+                ),
+              ),
             )
           ],
         ),
