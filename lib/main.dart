@@ -76,7 +76,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   min: 0,
                   max: 100,
                   divisions: 5,
-                  labels: ,
+                  labels: RangeLabels(
+                    _rangeSliderDiscreteValues.start.round().toString(),
+                    _rangeSliderDiscreteValues.end.round().toString()
+                  ),
                 ),
               ),
             )
